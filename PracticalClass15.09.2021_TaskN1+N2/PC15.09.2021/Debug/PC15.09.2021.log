@@ -1,4 +1,0 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (PC15.09.2021.vcxproj).  Это может привести к ошибкам очистки и перестроения.
-  Source.cpp
-D:\Учёба, ДЗ\University\PracticalClass15.09.2021_TaskN1+N2\PC15.09.2021\Source.cpp(21,26): warning C4244: =: преобразование "double" в "float", возможна потеря данных
-  PC15.09.2021.vcxproj -> D:\Учёба, ДЗ\University\PracticalClass15.09.2021_TaskN1+N2\Debug\PracticalClass15.09.2021_TaskN1+N2.exe
