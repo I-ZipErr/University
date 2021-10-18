@@ -1,0 +1,7 @@
+﻿  Source.cpp
+D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Source.cpp(14,39): warning C4267: =: преобразование из "size_t" в "short"; возможна потеря данных
+D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Source.cpp(17,23): warning C4018: >: несоответствие типов со знаком и без знака
+D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Source.cpp(24,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Source.cpp(40,22): warning C4018: >: несоответствие типов со знаком и без знака
+D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Source.cpp(47,23): warning C4018: <: несоответствие типов со знаком и без знака
+  IndividualTask_06.10.2021.vcxproj -> D:\Учёба, ДЗ\University\PracticalClass3\IndividualTask_06.10.2021\Debug\IndividualTask_06.10.2021.exe
