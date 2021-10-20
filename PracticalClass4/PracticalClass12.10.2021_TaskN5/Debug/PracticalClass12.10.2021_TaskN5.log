@@ -1,0 +1,4 @@
+﻿  Source.cpp
+D:\Учёба, ДЗ\University\PracticalClass4\PracticalClass12.10.2021_TaskN5\Source.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\Учёба, ДЗ\University\PracticalClass4\PracticalClass12.10.2021_TaskN5\Source.cpp(70,54): warning C4244: аргумент: преобразование "double" в "const unsigned int", возможна потеря данных
+  PracticalClass12.10.2021_TaskN5.vcxproj -> D:\Учёба, ДЗ\University\PracticalClass4\PracticalClass12.10.2021_TaskN5\Debug\PracticalClass12.10.2021_TaskN5.exe
