@@ -1,3 +1,4 @@
 ﻿  PracticalClass10.11.2021_BasicTaskN_ALL.cpp
-D:\Учёба, ДЗ\University\PracticalClass7\PracticalClass10.11.2021_BasicTaskN_ALL\PracticalClass10.11.2021_BasicTaskN_ALL.cpp(48,14): warning C4101: students_arr: неиспользованная локальная переменная
+D:\Учёба, ДЗ\University\PracticalClass7\PracticalClass10.11.2021_BasicTaskN_ALL\PracticalClass10.11.2021_BasicTaskN_ALL.cpp(51,14): warning C4101: students_arr: неиспользованная локальная переменная
+D:\Учёба, ДЗ\University\PracticalClass7\PracticalClass10.11.2021_BasicTaskN_ALL\PracticalClass10.11.2021_BasicTaskN_ALL.cpp(401,23): warning C4244: return: преобразование "long" в "float", возможна потеря данных
   PracticalClass10.11.2021_BasicTaskN_ALL.vcxproj -> D:\Учёба, ДЗ\University\PracticalClass7\PracticalClass10.11.2021_BasicTaskN_ALL\Debug\PracticalClass10.11.2021_BasicTaskN_ALL.exe

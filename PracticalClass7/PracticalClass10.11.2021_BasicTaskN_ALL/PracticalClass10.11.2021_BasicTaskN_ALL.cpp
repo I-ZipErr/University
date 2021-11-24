@@ -4,6 +4,7 @@
 #include <time.h>
 #include <fstream>
 #include <algorithm>
+#include <iomanip>
 
 using namespace std;
 
@@ -34,6 +35,8 @@ bool CompLastNameDown(student first, student second);
 bool CompFirstNameDown(student first, student second);
 bool CompMiddleNameDown(student first, student second);
 bool CompAgeDown(student first, student second);
+string FindCommonName(student* students, int number_of_students);
+float AverageAge(student* students, int number_of_students);
 int age_calculator;
 
 int main()
@@ -85,11 +88,13 @@ int main()
             sort(students_arr, students_arr + number_of_students, CompAgeDown);
             break;
         default:
-            cout << "Надо было вводить нормально число...";
+            cout << "Надо было вводить нормальное число...";
             return 0;
             break;
         }
         OutStudents(students_arr, number_of_students);
+        cout << endl << "Средний возраст всех студентов: " << setprecision(4) << AverageAge(students_arr, number_of_students) << endl;
+        cout << "Наиболее часто встречающееся имя среди студентов: " << FindCommonName(students_arr, number_of_students) << endl;
     }
     else
     {
@@ -137,11 +142,13 @@ int main()
             sort(students_arr, students_arr + number_of_students, CompAgeDown);
             break;
         default:
-            cout << "Надо было вводить нормально число...";
+            cout << "Надо было вводить нормальное число...";
             return 0;
             break;
         }
         OutStudents(students_arr, number_of_students);
+        cout << endl << "Средний возраст всех студентов: " << setprecision(4) << AverageAge(students_arr, number_of_students) << endl;
+        cout << "Наиболее часто встречающееся имя среди студентов: " << FindCommonName(students_arr, number_of_students) << endl;
     }
 };
 
@@ -338,5 +345,59 @@ bool CompMiddleNameDown(student first, student second)
 bool CompAgeDown(student first, student second)
 {
     return !CompAgeUp(first, second);
+}
+
+string FindCommonName(student* students, int number_of_students)
+{
+    struct nameCounter
+    {
+        string name = "";
+        int appearsNumber = 0;
+    };
+    nameCounter* names = new nameCounter [number_of_students];
+    int i = 0, ii = 0;
+    for (i; i < number_of_students; i++)
+    {
+        ii = 0;
+        while (ii != number_of_students)
+        {
+            if (names[ii].name == "")
+            {
+                names[ii].name = students[i].first_name;
+                names[i].appearsNumber = 1;
+                ii = number_of_students;
+            }
+            else
+            {
+                if (students[i].first_name == names[ii].name)
+                {
+                    names[ii].appearsNumber++;
+                    ii = number_of_students;
+                }
+                else
+                {
+                    ii++;
+                }
+            }
+        }
+    }
+    i = 0; ii = 0;
+    for (i; names[i].name != ""; i++)
+    {
+        if (names[i].appearsNumber > names[ii].appearsNumber)
+            ii = i;
+    }
+    return names[ii].name;
+}
+
+float AverageAge(student* students, int number_of_students)
+{
+    int i;
+    long summary_age = 0;
+    for (i = 0; i < number_of_students; i++)
+    {
+        summary_age += students[i].age;
+    }
+    return summary_age/number_of_students;
 }
 
