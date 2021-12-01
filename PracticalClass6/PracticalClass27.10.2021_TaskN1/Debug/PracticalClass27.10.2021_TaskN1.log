@@ -1,0 +1,8 @@
+﻿  Source.cpp
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(29,6): warning C4551: в вызове функции отсутствует список аргументов
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(66,46): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(70,34): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(74,10): warning C4244: return: преобразование "int" в "float", возможна потеря данных
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(141): warning C4715: Task_3_monthName: значение возвращается не при всех путях выполнения
+D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Source.cpp(184): warning C4715: Task_4_seasonName: значение возвращается не при всех путях выполнения
+  PracticalClass27.10.2021_TaskN1.vcxproj -> D:\Учёба, ДЗ\University\PracticalClass6\PracticalClass27.10.2021_TaskN1\Debug\PracticalClass27.10.2021.exe
